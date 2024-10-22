@@ -281,6 +281,9 @@ footer {
     flex-direction: row;
     align-items: flex-start;
   }
+  .about__image {
+    width: calc(280px + 100 * (100vw - 768px) / 472);
+  }
   .about__right {
     padding: 48px;
     margin-block: 168px 0;
